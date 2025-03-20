@@ -1,6 +1,7 @@
 import mocha from 'mocha';
 import forEach from "mocha-each";
-import {World} from "./index.js";
+import { World } from "./index.js";
+
 
 const assert = {
     equal(a, b) {
