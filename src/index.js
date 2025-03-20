@@ -43,7 +43,6 @@ export class World {
   }
 
   connectHouseholdToHousehold(household1, household2) {
-    console.log(household1.getConnectedEntities());
     if (
       household1 !== household2 &&
       this.#households.includes(household1) &&
